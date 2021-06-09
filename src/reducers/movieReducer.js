@@ -15,7 +15,7 @@ const reducer = (state = initialState, action) => {
             }
         case ADD_MOVIE:
             return {
-                ...state,
+                ...state, 
                 movies: [...state.movies, {
                     id: action.payload.id,
                     title: action.payload.title,
